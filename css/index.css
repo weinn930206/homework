@@ -1,0 +1,32 @@
+*{margin:0;padding:0;}
+
+#top{width: 100%;height:7%;position: fixed;background: white;z-index: 1;}
+#menu{float: left; width: 14%;}
+#logo{margin: 0 17%;width: 40%;}
+#code{float: right; width: 10%;}
+			
+#center{height:255em;width: 100%;position: absolute;top: 7%;}
+#pic{width: 100%;}
+#tele{width: 80%;margin: 1.25em 10%;}
+
+#choice{width: 100%;margin: 0 6%;height: 16em;}
+.choose{float: left;width: 16%;margin: 3%;}
+.choose img{width: 100%;}
+.choose a{font-size: 16%;color: black;text-decoration: none;}
+
+#content{width: 100%;text-align: center;color: dimgrey;}
+h6{width: 100%;font-size: 2em;}
+#content p{width: 95%; font-size:1.25em ;margin: 0 auto;}
+#content img{width: 70%;margin: 2.5em;} 
+	
+#btn{text-align: center;margin-top:3em;}	
+h1{font-size: 2em;color: red;}	
+input{width: 80%;height: 1.5em;border: 1px solid gray;font-size: 1.5em;margin: 0.5em;padding: 0.5em;color: gray;}
+#btn div{width: 87%; height: 2.5em;font-size: 1.5em;background: red;color: white;line-height: 2.5em;margin: 1em auto;}
+			
+#bottom{width: 100%;height: 10%;background: rgb(46,62,80);position: fixed;top: 90%;padding: 2%;color: white;}
+#first,#second,#third{width: 32%; float: left;text-align: center;}
+#bottom img{margin-bottom: -5px;}
+#first-1{width: 35%;}
+#first-2{width: 40%;}
+#first-3{width: 30%;}
