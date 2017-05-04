@@ -1,0 +1,24 @@
+*{margin:0;padding:0;}
+
+#top{width: 100%;height:4rem;position: fixed;background: white;z-index: 1;padding-top: 0.5rem;}
+#menu{float: left; width: 14%;}
+#logo{margin: 0 17%;width: 40%;}
+#code{float: right; width: 10%;}
+
+.content{position: absolute;top: 4rem;width: 100%;margin:  0;}
+.content>img{width: 100%;}
+.sub{width: 90%;margin: 2rem 5%;position: relative;color: white;}
+.sub img, .sub p{width:100%;}
+.sub p{background: black; opacity: 0.6; font-size: 1.5rem;height: 3rem;line-height: 3rem;position: absolute;top: 75%;}
+
+#btn{width:100%;text-align: center;position: absolute;top: 77em;height:25rem;}	
+h1{color: red;font-size: 2.5rem;}	
+input{width: 80%;height: 2rem;border: 1px solid gray;font-size: 1.5rem;margin: 0.5em;padding: 0.5em;color: gray;}
+#btn div{width: 85%; height: 4rem;font-size: 1.5rem;background: red;color: white;line-height: 4rem;margin: 1em auto;}
+
+#bottom{width: 100%;height: 10%;background: rgb(46,62,80);position: fixed;top: 90%;padding: 2%;color: white;}
+#first,#second,#third{width: 32%; float: left;text-align: center;}
+#bottom img{margin-bottom: -5px;}
+#first-1{width: 35%;}
+#first-2{width: 40%;}
+#first-3{width: 30%;}
