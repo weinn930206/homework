@@ -1,0 +1,44 @@
+*{margin: 0; padding: 0; font-size: 15px;}
+body{width: 50rem;margin: 0 auto;}
+/* 头部 */
+#top{width: 50rem;position: fixed;z-index: 5;padding-top: 0.5rem;background: white;}
+#menu{float: left; }
+#logo{margin-left:11.5rem ;}
+#code{float: right; }
+/* 大图 */
+#pic{margin-top: 5rem;}
+/* 内容 */
+#content{width:100%;text-align: center;}
+/* 一 */
+#conFir, #conSec{padding: 2rem;}
+#conFir div{display: inline-block;padding: 1.5rem;position: relative;}
+#conFir p{width: 17.9rem;background:rgba(0,0,0,0.6);color: white;height: 3.6rem;font-size: 1.5rem; line-height: 3.6rem;position: absolute;top: 8.6rem;}
+/* 二 */
+#conSec h2{font-size: 3rem;color:rgb(46,62,80);}
+#conSec div{margin-bottom: 4rem;}
+#conSec p{font-size: 2rem;color:rgb(51,51,51);line-height: 3.5rem;text-align: left;font-weight: 300;}
+/* 三 */
+#conThi{width: 38rem;border: 2px solid darkgray;margin-left: 2rem;padding: 4rem;}
+.stu-tea,.tea-stu{position: relative;width: 100%;margin-top: 2rem;}
+.stu-tea{min-height: 13rem;}
+.tea-stu{min-height: 27rem;}
+.box1,.box2{width: 55%; border-radius:0.4rem ;font-size: 2rem;color: rgb(51,51,51);font-weight: 200;padding: 2rem ; position: absolute;}
+.stuTri,.teaTri{border:1rem solid transparent;width: 0; height: 0;position: absolute;top: 1rem;}
+.stuTri{left: 10.6rem;border-right:1.5rem solid rgb(156,227,90);}
+.teaTri{left:65.5%;border-left:1.5rem solid rgb(245,245,245);}
+.box1{border: 1px solid rgb(156,227,90); background: rgb(156,227,90);left: 13rem;}
+.box2{border: 1px solid rgb(245,245,245); background: rgb(245,245,245);}
+.stu{float: left;}
+.tea{float: right;}
+
+
+/* 预约 */
+#btn{width:50rem;text-align: center;height:35rem;margin-top: 3rem;}	
+h1{color: red;font-size: 3rem;margin-bottom: 1rem;}	
+input{border: 1px solid gray;color: gray;}
+#btn div{background: red;color: white;line-height: 3rem;}
+#btn div, #btn input{height: 3rem;width: 75%;padding: 0.8rem;font-size:2rem;margin: 1rem auto;}
+/* 底部 */
+#bottom{width: 50rem;background: rgb(46,62,80);position: fixed;bottom: 0;color: white;height: 7rem;}
+#first,#second,#third{float:left;text-align: center;width: 33%;margin: 1rem 0;}
+
