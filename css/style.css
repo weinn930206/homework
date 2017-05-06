@@ -1,0 +1,52 @@
+*{margin: 0;padding: 0;}
+body{background: #edf0f1;}
+.noFill{fill: none;}
+/* 头部 */
+header{background: #27b99a;height: 70px;border-bottom-right-radius:8px;border-bottom-left-radius: 8px;width: 100%;line-height: 70px;text-align: center;position: fixed;z-index: 2;padding: 0 12px;}
+header input{background: #66c4ab;height: 46px;width: 100%;border-top-left-radius: 5px;border-bottom-left-radius: 5px;border: 0;border-bottom-right-radius:23px ;border-top-right-radius: 23px; color: white;font-size: 15px;padding-left: 15px;box-shadow: none;outline: none;}
+header input::-webkit-input-placeholder{color: white;}
+header button{height: 46px;width: 46px;border-radius: 50%;border: 0;background:#fff;position: absolute;top: 12px;right: 12px; outline: none;cursor: pointer;}
+#add svg{width: 16px; height: 16px;position: absolute;top: 50%;left: 50%;margin: -8px 0 0 -8px;}
+header button svg .fill{fill: #27B99A;}
+/* 内容 */
+.content{position: relative;top: 70px;padding: 14px;}
+ul.todo li{width: 100%;height: 50px;line-height: 50px;background: white;box-shadow: none;border: 0;border-radius: 5px;padding: 0 14px;position: relative;} 
+/* 按钮 */
+ul.todo li .btns button{background: transparent;width:50px;height:50px;box-shadow: none;outline: none;border: 0;position: absolute;top: 0;cursor: pointer;}
+ul.todo li .btns button svg{width: 22px;height: 22px;}
+/* 垃圾桶 */
+ul.todo li .btns button.remove{right: 50px;}
+ul.todo li .btns button.remove svg .fill{fill:#c8d4d0;transition: fill 0.2s ease;}
+/* 对号 */
+ul.todo li .btns button.complete{right: 0px;}
+ul.todo li .btns button.complete svg{border: 1px solid #27B99A; border-radius: 50%;transition: background 0.2s ease;}
+#todo li .btns .complete svg .fill{fill: #27B99A;transition: fill 0.2s ease;}
+/* 竖线 */
+ul.todo li .btns button:last-of-type:before{content:""; width: 1px;height: 30px;background: #c8d4d0;position:absolute ;top: 10px;left: 0;}
+/* hover */
+/* 垃圾桶 */
+ul.todo li .btns button.remove:hover svg .fill{fill:#ed7675; }
+/* 对号 */
+#todo li .btns button.complete:hover svg{background: #27B99A;}
+#todo li .btns button.complete:hover svg .fill{fill: white;}
+
+/* 完成 */
+ul.todo#completed li .btns button.complete svg .fill{fill: white;}
+ul.todo#completed li .btns button.complete svg{background: #27B99A;border: 0;}
+
+/* 完成与未完成间隙 */
+ul.todo#completed:not(:empty){padding: 50px 0 0 0;position: relative;}
+/* 横线 */
+ul.todo#completed li:first-of-type:not(:empty):before{
+	width: 136px;
+	height: 1px;
+	background: #C8D4D0;
+	content: "";
+	position:absolute ;
+	top: -25px;
+	left: 50%;
+	margin-left: -68px;
+}
+
+
+
