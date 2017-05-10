@@ -1,0 +1,19 @@
+/* 清浮动 */
+.clear{content: ""; clear: both;}
+/* 了解 */
+.under{border: red 1px solid;border-radius: 8px;height: 6rem;line-height: 6rem;width: 80%;opacity: 0.8;margin-left: 10% ;margin-top: 3rem;}
+.under a{font-size: 2.5rem;color: red;}
+
+
+.suitable, .schools, .condition, .cost{padding:0 2%; width: 96%;margin: 3% 0;}
+/* 院校推荐 *//* 适合人群 */ 
+/*.schools{margin-bottom: 10rem;}*/
+.suitable div,.schools div {width: 30%; margin: 1.5%; float: left;}
+.suitable p,.schools p{width: 100%; font-size: 1.5rem;color: rgb(46,62,80); }
+ /* 学历要求 *//* 留学费用 */
+.require, .school {line-height: 2.5rem; font-size: 2rem;color: white;background: rgb(46,62,80);width: 2rem;float: left;margin-bottom: 1rem;}
+.condition .require{padding: 3rem;}
+ .cost .school{padding:5rem 3rem;}
+.reqcon, .schcon{background: rgb(237,237,237);font-size: 2.3rem;color: dimgray;font-weight: 200; margin-left: 8rem;text-align: left;}
+.reqcon{width: 70%;padding: 3rem ;height: 9.85rem;}
+.schcon{width: 75%;padding: 3rem 2rem;height: 13.9rem;}
