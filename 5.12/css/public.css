@@ -1,0 +1,23 @@
+*{margin: 0; padding: 0; font-size: 15px;text-decoration: none;}
+body{width: 50rem;margin: 0 auto;}
+/* 头部 */
+#top{width: 50rem;position: fixed;z-index: 5;padding-top: 0.5rem;background: white;}
+#menu{float: left; }
+#logo{margin-left:11.5rem ;}
+#code{float: right; }
+/* 大图 */
+#pic{margin-top: 5rem;width: 100%;}
+/* 内容 */
+.content{width:100%;text-align: center;}
+.content h2{font-size: 3rem;color: rgb(46,62,80);line-height: 15rem; height: 12rem;}
+/* 预约 */
+#btn{width:50rem;text-align: center;height:35rem;margin-top: 6rem;}	
+h1{color: red;font-size: 3rem;margin-bottom: 1rem;}	
+input{border: 1px solid gray;color: gray;}
+#btn div{background: red;color: white;line-height: 3rem;}
+#btn div, #btn input{height: 3rem;width: 75%;padding: 0.8rem;font-size:2rem;margin: 1rem auto;}
+#btn div.inform{margin-bottom: 10rem;}
+/* 底部 */
+#bottom{width: 50rem;background: rgb(46,62,80);position: fixed;bottom: 0;color: white;height: 7rem;}
+#first,#second,#third{float:left;text-align: center;width: 33%;margin: 1rem 0;}
+#bottom span{font-size: 1.5rem;}
