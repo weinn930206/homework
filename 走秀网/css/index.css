@@ -1,0 +1,17 @@
+/* 轮播图原点 */
+.swiper-pagination-bullet{background:rgb(212,19,123) ;}
+/* 内容 */
+
+.con{width: 95%;height:7rem ;padding: 0.5rem;}
+.goods{margin-bottom: 0.5rem;}
+.goodsImg{width: 30%;float: left;height: 7rem;}
+.right{width: 70%; height: 7rem; float: right;}
+.name, .money{line-height: 1.5rem;}
+.name{font-weight: 200;height: 3rem;margin: 0 0.5rem 0.5rem;}
+.money{margin: 0rem 0.5rem 0;width: 100%;}
+.new{display:inline-block ;color: rgb(212,19,123);}
+.old{margin-left: 2rem;display:inline-block ;color:lightgray;text-decoration:line-through;}
+.car{float: right;background:rgb(212,19,123) ;padding: 0.2rem 0.8rem;margin-right: 3rem;border-radius:8px ;}
+.fav{color: gray;margin: 1rem 0.5rem;}
+/* 清浮动 */
+.clear{content: ""; clear: both;}

@@ -1,0 +1,14 @@
+.content div{background: white;margin: 2rem 5%;border-radius: 10px;height: 4rem;line-height: 4rem;font-size: 1.5rem;padding-left: 1.5rem;}
+.inp{border: none;outline: none;font-size: 1.5rem;width: 60%;}
+.clause{margin:  4rem 10%;}
+.clause input{width: 1rem; height: 1rem;}
+
+.warning{padding: 2rem 0 0 5%;color: red;font-size: 1.5rem;display: none;}
+.warning img{width: 1rem; height: 1rem;}
+
+
+.con{padding: 2rem 5%;}
+.input{ width:100%;font-size: 1.5rem;padding: 0.8rem 0 0.8rem 0.5rem;margin-top: 1rem;border-radius: 10px;outline: none;border: none;}
+.choose{height: 2rem;font-size: 1.3rem;margin: 1rem 10% ;}
+.choose input{width: 1rem; height: 1rem;}
+.btn{margin-top: 3rem;}

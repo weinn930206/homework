@@ -1,0 +1,6 @@
+*{margin: 0; padding: 0;}
+body{background: rgb(242,239,239);padding-top: 3.9rem;}
+.header{background: rgb(212,19,123);height: 3rem;padding: 1rem;width: 100%;position: fixed;z-index: 5;top:0;}
+.common{position: absolute;top: 50%;left: 50%; margin: -22.5px -46.5px;}
+a{text-decoration: none;color: deeppink;margin-left: 1.5rem;font-size: 1.3rem;}
+.submit{line-height: 4rem; text-align:center;display:inline-block;background:rgb(241,0,136) ;width: 90%;border-radius: 8px; height: 4rem;font-size: 2rem;margin: 0.5rem 5%;border: none;color: white;outline: none;}
